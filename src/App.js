@@ -28,7 +28,7 @@ const App = () => {
             <VideoDetail video={selectedVideo} />
           </Grid>
           <Grid item xs={8}>
-            <VideoList />
+            <VideoList video={video} />
           </Grid>
         </Grid>
       </Grid>
