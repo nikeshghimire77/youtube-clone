@@ -25,7 +25,7 @@ const App = () => {
             <SearchBar onFormSubmit={handleSubmit} />
           </Grid>
           <Grid item xs={8}>
-            <VideoDetail />
+            <VideoDetail video={selectedVideo} />
           </Grid>
           <Grid item xs={8}>
             <VideoList />
